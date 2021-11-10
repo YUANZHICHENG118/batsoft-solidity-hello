@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="750px" height="1297px" viewBox="0 0 750 1297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.7691474%" id="linearGradient-1">
+            <stop stop-color="#002EBB" offset="0%"></stop>
+            <stop stop-color="#0E67FD" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="5.75711354e-13 0 750 0 750 1297 1.2490009e-12 1297"></polygon>
+        <linearGradient x1="19.5732793%" y1="67.4821339%" x2="62.4332476%" y2="6.73191449%" id="linearGradient-4">
+            <stop stop-color="#0A59EB" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#00288C" stop-opacity="0.645691803" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.8214498%" y1="57.2434454%" x2="30.3673129%" y2="60.284285%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.207880435" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.8867174%" y1="100%" x2="86.0832579%" y2="43.7284644%" id="linearGradient-6">
+            <stop stop-color="#1041F6" stop-opacity="0.119367074" offset="0%"></stop>
+            <stop stop-color="#002AA9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.6324374%" y1="149.928264%" x2="94.8622856%" y2="74.3978068%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0.362035779" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IOS-海外-定稿-Copy-3" transform="translate(0.000000, -186.000000)">
+            <g id="Group-4" transform="translate(0.000000, 186.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <path d="M470.281951,840.941378 C482.936451,805.096377 502.56714,768.951499 530.420696,733.331999 C609.326199,632.421261 752.845592,557.515109 757.342569,281.111188 C757.342569,281.081308 757.356588,281.058322 757.371685,281.034807 L757.408379,280.938544 C757.079332,275.219693 760.984024,277.37775 761.203389,277.496443 C815.123247,317.593139 886,440.688701 886,583.843402 C886,696.964509 750.982023,803.638246 685.87886,925.918384 C662.04867,970.677485 647.585901,1017.52758 652.541056,1067.55026" id="Path" stroke="url(#linearGradient-5)" stroke-width="2" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                <path d="M122.99774,-252.385108 C122.010873,-253.052771 120.613624,-253.514244 119.646299,-251.913816 C117.008138,-220.248913 84.8225739,-152.530204 44.0287886,-90.3393525 C-94.3183267,120.593086 -15.4763976,222.264426 28.8642485,276.885156 C54.6009744,308.589334 28.8642485,276.885156 93.1962923,244.48386 C98.238111,241.940849 218.73367,174.035587 231.787682,19.3144886 C244.421541,-130.507141 154.870633,-224.95201 122.99774,-252.385108" id="Combined-Shape-Copy-2" stroke="url(#linearGradient-7)" stroke-width="2" fill="url(#linearGradient-6)" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

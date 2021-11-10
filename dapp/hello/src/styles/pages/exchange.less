@@ -1,0 +1,210 @@
+/deep/ .ivu-card-body {
+  height: 100%;
+}
+
+/deep/ .ivu-tabs-content {
+  flex-grow: 1;
+}
+.dark{
+  .exchange-box{
+    color: #b0b8db;
+    background-color: #252a44;
+    /deep/.ivu-input,
+    /deep/.ivu-select-selection,
+    /deep/ .ivu-input-group-prepend,
+    /deep/ .ivu-b,
+    /deep/.ivu-input-group-append {
+      border-color: #383f66;
+    }
+    /deep/.ivu-slider-wrap {
+      background-color: #252a44;
+    }
+    /deep/.ivu-btn-ghost.ivu-btn-default {
+      border-color: #383f66;
+    }
+    div.exchange-item,#kline {
+      background: #141826;
+    }
+    .ticker {
+      background-color: #0f121f;
+      border-color: #111217;
+      > .symbol-name {
+        color: #f4f9ff;
+      }
+    }
+    .chart-actions{
+      border-color:#111217;
+      .maxScreen {
+        /deep/.ivu-btn-text.active,button:hover {
+          background-color: rgba(37, 42, 68, 0.5) !important;
+        }
+        button {
+          border-color: #111217;
+        }
+      }
+    }
+  }
+}
+.day{
+  .exchange-box{
+    color: #1c242c;
+    background-color: #e5ebf5;
+    /deep/.ivu-input,
+    /deep/.ivu-select-selection,
+    /deep/.ivu-input-group-prepend,
+    /deep/ .ivu-input-group-append {
+      border-color: #cad7e0;
+    }
+    /deep/.ivu-slider-wrap {
+      background-color: #e5ebf5;
+    }
+    /deep/.ivu-btn-ghost.ivu-btn-default {
+      border-color: #dfe2e7;
+      color: #1c242c;
+    }
+    div.exchange-item,#kline {
+      background: #fff;
+    }
+    .ticker {
+      background-color:#f2f6fc;
+      border-color: #e6ecf2;
+      > .symbol-name {
+        color: #1c242c;
+      }
+    }
+    .chart-actions{
+      border-color:#e6ecf2;
+      .maxScreen {
+        /deep/.ivu-btn-text.active,button:hover {
+          background-color: rgba(229,235,245,.5)!important;
+        }
+        button {
+          border-color: #e6ecf2;
+        }
+      }
+    }
+
+  }
+}
+.exchange-box {
+  height: 100%;
+  min-width: 1310px;
+}
+.exchange-right {
+  padding: 0 0 5px;
+}
+.exchange-top {
+  height: 680px;
+}
+
+.ticker {
+  position: relative;
+  height: 44px !important;
+  border-bottom: 1px solid;
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  white-space: normal;
+  padding-right: 10px;
+  font-weight: 400;
+  > .symbol-name {
+    height: unset;
+    line-height: 44px;
+    vertical-align: unset;
+    white-space: nowrap;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 8px;
+    padding-left: 8px;
+  }
+  > .symbol-type {
+    display: inline-block;
+    position: relative;
+    vertical-align: unset;
+    height: 16px;
+    margin-right: 4px;
+    border-radius: 5px 0;
+    top: 14px;
+    padding: 0 2px;
+    color: #2483ff;
+    font-size: 12px;
+    border: 1px solid rgba(36, 131, 255, 0.4);
+  }
+  > dl {
+    margin-right: 15px;
+    padding: 6px 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    dt {
+      color: #61688a;
+      height: 16px;
+      line-height: 16px;
+    }
+  }
+  .price-container {
+    margin-left: 8px;
+    text-align: left;
+    padding: 5px 0;
+    margin-right: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    .estimate {
+      color: #61688a;
+      font-size: 12px;
+    }
+    span {
+      display: block;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 400;
+    }
+  }
+}
+.chart-actions {
+  border-bottom: 1px solid;
+  padding-right: 10px;
+  height: 25px;
+  /deep/.ivu-btn-small {
+    font-size: 12px;
+  }
+  .maxScreen {
+    color: #61688a;
+    /deep/.ivu-btn-text.active {
+      color: #2b85e4;
+    }
+    button {
+      color: #61688a;
+    }
+  }
+}
+.switcher {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top:44px;
+  button {
+    height: 20px;
+    padding: 0 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-weight: 500;
+    color: #61688a;
+    border-color: #383f66;
+    &.cur {
+      border-color: #2483ff;
+      color: #2483ff;
+    }
+  }
+}
+.globalTheme {
+  float: right;
+}
+
+@media screen and (min-width: 1400px) {
+  .content-top {
+    height: 780px;
+  }
+}

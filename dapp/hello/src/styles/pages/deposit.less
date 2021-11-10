@@ -1,0 +1,174 @@
+.width {
+  width: 1000px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.default_wrap {
+  .width;
+  min-height: 350px;
+  border: 1px solid #e6ecf2;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: rgba(242, 246, 250, 1);
+}
+.default_head {
+  width: 100%;
+  background-color: #f2f6fa;
+  border-bottom: 1px solid #e6ecf2;
+  .currencys {
+    position: relative;
+    font-size: 16px;
+    color: #1c242c;
+    padding: 0 20px;
+    align-items: center;
+    border-right: 1px solid #e6ecf2;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    /deep/.ivu-dropdown-item {
+      span {
+        color: #1c242c;
+        font-size: 12px;
+        word-break: break-all;
+      }
+      b {
+        color: #9aa5b5;
+        font-size: 12px;
+        margin-left: 8px;
+        font-weight: 400;
+      }
+    }
+    .arrow {
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+      background-color: rgba(36, 131, 255, 0.2);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+    .full-name {
+      color: #596a7a;
+      font-size: 14px;
+      margin-left: 8px;
+    }
+  }
+}
+.content {
+  width: 620px;
+  max-width: 94%;
+  margin: 0 auto;
+  color: #1c242c;
+  text-align: center;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+.chains-list {
+  margin-bottom: 24px;
+  p {
+    color: #596a7a;
+    font-size: 12px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  .include-tips {
+    justify-content: space-around;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #dfe2e7;
+    border-radius: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    .radio {
+      position: absolute;
+      top: 12px;
+      left: 13px;
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 1px solid #9aa5b5;
+      border-radius: 50%;
+      &.checked {
+        border: 5px solid #2483ff;
+      }
+    }
+    &:active,
+    &:hover,
+    &.cur {
+      border-color: #2483ff;
+    }
+  }
+}
+
+.deposit-before-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 239px;
+  font-size: 14px;
+  border: 1px solid #e6ecf2;
+  margin-bottom: 24px;
+  color: #2483ff;
+}
+.deposit-address {
+  .addr {
+    font-size: 16px;
+    min-height: 16px;
+    word-break: break-all;
+    line-height: 22px;
+    font-weight: 700;
+    .chain-name {
+      display: inline-block;
+      color: #9aa5b5;
+      font-size: 12px;
+      line-height: 20px;
+      background: #e5ebf5;
+      border-radius: 2px;
+      padding: 0 4px;
+      margin-right: 4px;
+    }
+  }
+  .copy {
+    color: #2483ff;
+    margin: 8px 0 24px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .qr-code {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 40px;
+  }
+}
+.history {
+  .width;
+  /deep/.ivu-table th,
+  /deep/ .ivu-table td {
+    border-bottom: 0;
+  }
+  /deep/.ivu-card-head {
+    background: #f2f6fa;
+    p {
+      font-size: inherit;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .chains-list{
+  .include-tips {
+    .radio {
+      width: 10px;
+      height: 10px;
+      left: 7px;
+      top: 15px;
+    }
+  }
+  }
+}
