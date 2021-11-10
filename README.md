@@ -36,5 +36,5 @@ name ：BscTest
 区块链浏览器：https://testnet.bscscan.com/
 符号:BNB
 
-
+测试网BNB水龙头 https://testnet.binance.org/faucet-smart
 
