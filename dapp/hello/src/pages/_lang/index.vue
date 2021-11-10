@@ -1,10 +1,11 @@
 <template>
     <div>
         <p>我的地址：{{ account }}</p>
-       <p>订单号：{{ orderId }}</p>
-        <p>钱包余额：{{banlance}} BNB</p>
+        <p>订单号：{{ orderId }}</p>
+        <p>钱包余额：{{ banlance }} BNB</p>
         <Button :loading="loading" :disabled="loading" @click="setOrder">设置</Button>
-        <Input :disabled="false" v-model="setOrderId"  placeholder="Enter something..." style="width: 300px; background-color: #fff; color: #0a0e17" />
+        <Input :disabled="false" v-model="setOrderId" placeholder="Enter something..."
+               style="width: 300px; background-color: #fff; color: #0a0e17"/>
 
     </div>
 </template>
@@ -12,12 +13,15 @@
 <script>
     import web3Mixins from '@/mixins/web3'
 
+    /**
+     * abi 是区块链刚才部署合约后生成的ABI
+     */
     export default {
         mixins: [web3Mixins],
         data () {
             return {
                 loading: false,
-                contractAddress: '0xF34aC58b94B1134afdFb348Bcb74C4953620c7c1',
+                contractAddress: '0x69Ec4D5F485a8731cbff9aC30c043c2F47739172', // 刚才部署的合约地址
                 orderId: 0,
                 setOrderId: 0,
                 banlance: 0,
@@ -36,8 +40,7 @@
                 }]
             };
         },
-        computed: {
-        },
+        computed: {},
         methods: {
             // 初始化合约
             getContract () {
@@ -102,7 +105,7 @@
                     console.log('hash===', result)
                 }).catch((error) => {
                     console.log('===error', error)
-                    // If the request fails, the Promise will reject with an error.
+                // If the request fails, the Promise will reject with an error.
                 });
             }
         },

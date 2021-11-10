@@ -29,5 +29,11 @@ web3j ：https://web3js.readthedocs.io/en/v1.3.0/web3-eth-contract.html#eth-cont
 
 solidity：https://solidity-cn.readthedocs.io/zh/develop/
 
+BNB 测试链配置
+node：https://data-seed-prebsc-1-s1.binance.org:8545/
+chainId：97
+name ：BscTest
+区块链浏览器：https://testnet.bscscan.com/
+
 
 
