@@ -34,6 +34,7 @@ node：https://data-seed-prebsc-1-s1.binance.org:8545/
 chainId：97
 name ：BscTest
 区块链浏览器：https://testnet.bscscan.com/
+符号:BNB
 
 
 
